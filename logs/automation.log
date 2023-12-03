@@ -1,0 +1,119 @@
+
+09:25:54.926 [main] INFO  stepDefinations.UserRegistration_Steps - ================setup method invoked====================================
+09:25:57.670 [main] INFO  stepDefinations.UserRegistration_Steps - Opening URl
+09:26:00.079 [main] INFO  stepDefinations.UserRegistration_Steps - check for Registration Page
+09:26:00.269 [main] INFO  stepDefinations.UserRegistration_Steps - Displaying Registration Page
+09:26:00.269 [main] INFO  stepDefinations.UserRegistration_Steps - check for Registration Page Done
+09:26:04.165 [main] INFO  stepDefinations.UserRegistration_Steps - Registration form completed
+09:26:06.195 [main] INFO  stepDefinations.UserRegistration_Steps - User Registarion Successfull
+09:26:06.199 [main] INFO  stepDefinations.UserRegistration_Steps - @@@@@@@@@@@@@@@@@teardown for Registration() invoked@@@@@@@@@@@@@@@@@@@@@@@@@@@
+09:26:06.440 [main] INFO  stepDefinations.UserRegistration_Steps - ================setup method invoked====================================
+09:26:07.869 [main] INFO  stepDefinations.UserRegistration_Steps - Opening URl
+09:26:09.882 [main] INFO  stepDefinations.UserRegistration_Steps - check for Registration Page
+09:26:09.980 [main] INFO  stepDefinations.UserRegistration_Steps - Displaying Registration Page
+09:26:09.980 [main] INFO  stepDefinations.UserRegistration_Steps - check for Registration Page Done
+09:26:13.016 [main] INFO  stepDefinations.UserRegistration_Steps - Registration form completed
+09:26:14.073 [main] INFO  stepDefinations.UserRegistration_Steps - User Registarion Successfull
+09:26:14.073 [main] INFO  stepDefinations.UserRegistration_Steps - @@@@@@@@@@@@@@@@@teardown for Registration() invoked@@@@@@@@@@@@@@@@@@@@@@@@@@@
+09:26:14.266 [main] INFO  stepDefinations.UserRegistration_Steps - ================setup method invoked====================================
+09:26:15.666 [main] INFO  stepDefinations.UserRegistration_Steps - Opening URl
+09:26:18.250 [main] INFO  stepDefinations.UserRegistration_Steps - check for Registration Page
+09:26:18.336 [main] INFO  stepDefinations.UserRegistration_Steps - Displaying Registration Page
+09:26:18.336 [main] INFO  stepDefinations.UserRegistration_Steps - check for Registration Page Done
+09:26:21.458 [main] INFO  stepDefinations.UserRegistration_Steps - Registration form completed
+09:26:23.880 [main] INFO  stepDefinations.UserRegistration_Steps - User Registarion Successfull
+09:26:23.881 [main] INFO  stepDefinations.UserRegistration_Steps - @@@@@@@@@@@@@@@@@teardown for Registration() invoked@@@@@@@@@@@@@@@@@@@@@@@@@@@
+09:26:24.055 [main] INFO  stepDefinations.UserRegistration_Steps - ================setup method invoked====================================
+09:26:25.513 [main] INFO  stepDefinations.UserRegistration_Steps - Opening URl
+09:26:27.759 [main] INFO  stepDefinations.UserRegistration_Steps - check for Registration Page
+09:26:27.854 [main] INFO  stepDefinations.UserRegistration_Steps - Displaying Registration Page
+09:26:27.854 [main] INFO  stepDefinations.UserRegistration_Steps - check for Registration Page Done
+09:26:31.056 [main] INFO  stepDefinations.UserRegistration_Steps - Registration form completed
+09:26:33.171 [main] INFO  stepDefinations.UserRegistration_Steps - User Registarion Successfull
+09:26:33.171 [main] INFO  stepDefinations.UserRegistration_Steps - @@@@@@@@@@@@@@@@@teardown for Registration() invoked@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+09:31:44.930 [main] INFO  stepDefinations.Login_Steps - ==========================setupForLogin() invoked=============================
+09:31:47.176 [main] INFO  stepDefinations.Login_Steps - Browser Launched
+09:31:48.786 [main] INFO  stepDefinations.Login_Steps - URl Opened
+09:31:52.563 [main] INFO  stepDefinations.Login_Steps - Clicked on Login link 
+09:31:52.565 [main] INFO  stepDefinations.Login_Steps - checking Login Page
+09:31:52.661 [main] INFO  stepDefinations.Login_Steps - Displaying Login Page
+09:31:52.662 [main] INFO  stepDefinations.Login_Steps - login started
+09:31:55.973 [main] INFO  stepDefinations.Login_Steps - login successfull
+09:31:55.973 [main] INFO  stepDefinations.Login_Steps - Login finished
+09:31:55.979 [main] INFO  stepDefinations.Login_Steps - teardown for Login_Steps() invoked
+09:31:56.222 [main] INFO  stepDefinations.Login_Steps - ==========================setupForLogin() invoked=============================
+09:31:57.830 [main] INFO  stepDefinations.Login_Steps - Browser Launched
+09:32:00.067 [main] INFO  stepDefinations.Login_Steps - URl Opened
+09:32:04.024 [main] INFO  stepDefinations.Login_Steps - Clicked on Login link 
+09:32:04.025 [main] INFO  stepDefinations.Login_Steps - checking Login Page
+09:32:04.101 [main] INFO  stepDefinations.Login_Steps - Displaying Login Page
+09:32:04.102 [main] INFO  stepDefinations.Login_Steps - login started
+09:32:05.820 [main] INFO  stepDefinations.Login_Steps - login successfull
+09:32:05.820 [main] INFO  stepDefinations.Login_Steps - Login finished
+09:32:05.821 [main] INFO  stepDefinations.Login_Steps - teardown for Login_Steps() invoked
+09:32:06.022 [main] INFO  stepDefinations.Login_Steps - ==========================setupForLogin() invoked=============================
+09:32:07.341 [main] INFO  stepDefinations.Login_Steps - Browser Launched
+09:32:09.408 [main] INFO  stepDefinations.Login_Steps - URl Opened
+09:32:13.130 [main] INFO  stepDefinations.Login_Steps - Clicked on Login link 
+09:32:13.131 [main] INFO  stepDefinations.Login_Steps - checking Login Page
+09:32:13.207 [main] INFO  stepDefinations.Login_Steps - Displaying Login Page
+09:32:13.208 [main] INFO  stepDefinations.Login_Steps - login started
+09:32:14.938 [main] INFO  stepDefinations.Login_Steps - login successfull
+09:32:14.939 [main] INFO  stepDefinations.Login_Steps - Login finished
+09:32:14.939 [main] INFO  stepDefinations.Login_Steps - teardown for Login_Steps() invoked
+09:32:15.150 [main] INFO  stepDefinations.Login_Steps - ==========================setupForLogin() invoked=============================
+09:32:16.397 [main] INFO  stepDefinations.Login_Steps - Browser Launched
+09:32:18.428 [main] INFO  stepDefinations.Login_Steps - URl Opened
+09:32:22.102 [main] INFO  stepDefinations.Login_Steps - Clicked on Login link 
+09:32:22.105 [main] INFO  stepDefinations.Login_Steps - checking Login Page
+09:32:22.180 [main] INFO  stepDefinations.Login_Steps - Displaying Login Page
+09:32:22.181 [main] INFO  stepDefinations.Login_Steps - login started
+09:32:23.890 [main] INFO  stepDefinations.Login_Steps - login successfull
+09:32:23.890 [main] INFO  stepDefinations.Login_Steps - Login finished
+09:32:23.891 [main] INFO  stepDefinations.Login_Steps - teardown for Login_Steps() invoked
+
+
+10:06:24.410 [main] INFO  stepDefinations.AddWishlist - ==========================setupFor A_Wishlist invoked=============================
+10:06:26.187 [main] INFO  stepDefinations.AddWishlist - STP1 Opening URl
+10:06:28.509 [main] INFO  stepDefinations.AddWishlist - STP2 click on Register link
+10:06:29.245 [main] INFO  stepDefinations.AddWishlist - Stp3 check for Registration Page
+10:06:29.414 [main] INFO  stepDefinations.AddWishlist - Displaying Registration Page
+10:06:29.415 [main] INFO  stepDefinations.AddWishlist -  Stp3 is Done
+10:06:30.250 [main] INFO  stepDefinations.AddWishlist - Stp4 Registration Started
+10:06:34.578 [main] INFO  stepDefinations.AddWishlist - User Registarion Successfull
+10:06:34.579 [main] INFO  stepDefinations.AddWishlist - Stp4 Done
+10:06:34.580 [main] INFO  stepDefinations.AddWishlist - Step5 Clicked on Login link 
+10:06:38.277 [main] INFO  stepDefinations.AddWishlist - Step5 Done 
+10:06:38.279 [main] INFO  stepDefinations.AddWishlist - Step6 checking Login Page
+10:06:38.343 [main] INFO  stepDefinations.AddWishlist - Step6 Done: Displaying Login Page
+10:06:38.344 [main] INFO  stepDefinations.AddWishlist -  Step 7 login started
+10:06:39.576 [main] INFO  stepDefinations.AddWishlist - login successfull
+10:06:39.576 [main] INFO  stepDefinations.AddWishlist -  Step7 Done: Login finished
+10:06:39.577 [main] INFO  stepDefinations.AddWishlist - Step8: Search the Product
+10:06:40.839 [main] INFO  stepDefinations.AddWishlist - Step8 Done: HTC One Mini Blue product is Searching
+10:06:46.846 [main] INFO  stepDefinations.AddWishlist - Step9 Adding Product to Wishlist
+10:06:53.004 [main] INFO  stepDefinations.AddWishlist - Step9 Done: Product is Added to Wishlist 
+10:06:53.006 [main] INFO  stepDefinations.AddWishlist - Step10 Clicked on Wishlist iconlink option
+10:06:53.617 [main] INFO  stepDefinations.AddWishlist - Step10 Done 
+10:06:53.687 [main] INFO  stepDefinations.AddWishlist - Step11 Done: Wishlist Page Opened
+10:06:53.689 [main] INFO  stepDefinations.AddWishlist - Step12 Check Product is Added in Wishlist Table 
+10:06:53.749 [main] INFO  stepDefinations.AddWishlist - Step12 Done: Product added & displaying in the WishList Table Successfully
+10:06:55.739 [main] INFO  stepDefinations.AddWishlist - teardown for A_Wishlist invoked
+10:08:22.350 [main] INFO  stepDefinations.AddWishlist - ==========================setupFor R_Wishlist() invoked=============================
+10:08:24.264 [main] INFO  stepDefinations.AddWishlist - STP1 Opening URl
+10:08:26.606 [main] INFO  stepDefinations.AddWishlist - Step5 Clicked on Login link 
+10:08:30.400 [main] INFO  stepDefinations.AddWishlist - Step5 Done 
+10:08:30.410 [main] INFO  stepDefinations.AddWishlist - Step6 checking Login Page
+10:08:30.483 [main] INFO  stepDefinations.AddWishlist - Step6 Done: Displaying Login Page
+10:08:30.484 [main] INFO  stepDefinations.AddWishlist -  Step 7 login started
+10:08:33.455 [main] INFO  stepDefinations.AddWishlist - login successfull
+10:08:33.456 [main] INFO  stepDefinations.AddWishlist -  Step7 Done: Login finished
+10:08:33.456 [main] INFO  stepDefinations.AddWishlist - Step10 Clicked on Wishlist iconlink option
+10:08:34.139 [main] INFO  stepDefinations.AddWishlist - Step10 Done 
+10:08:34.231 [main] INFO  stepDefinations.AddWishlist - Step11 Done: Wishlist Page Opened
+10:08:34.232 [main] INFO  stepDefinations.AddWishlist - Step12 Check Product is Added in Wishlist Table 
+10:08:34.290 [main] INFO  stepDefinations.AddWishlist - Step12 Done: Product added & displaying in the WishList Table Successfully
+10:08:34.291 [main] INFO  stepDefinations.AddWishlist - --------Removing the product from Wishlist----------
+10:08:36.994 [main] INFO  stepDefinations.AddWishlist - Removed the product from Wishlist
+10:08:36.998 [main] INFO  stepDefinations.AddWishlist - teardown for R_Wishlist invoked
