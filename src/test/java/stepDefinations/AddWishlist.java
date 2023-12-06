@@ -14,6 +14,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 
+import hooks.MyHooks;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
@@ -27,13 +28,12 @@ import pageObjects.RegisterationPageObject;
 import pageObjects.WishListPageObject;
 import utilities.DataReader;
 
-public class AddWishlist
+public class AddWishlist 
 
 {
-	public WebDriver driver;
-	private static Logger logger;
-	public ResourceBundle rb;
-	public String br;
+	WebDriver driver;
+	Logger logger;
+	
 	boolean rslt;
 	public String act_rslt;
 	public String exp_rslt;
@@ -48,82 +48,22 @@ public class AddWishlist
 	HomePageObject hpo;
 	WishListPageObject wpo;
 	HTCOneMiniBluePageObject htcpo;
+
 	
 	List<HashMap<String,String>> datamap;
 	
 	
-	@Before
-	public void setupForA_Wishlist()
-	{
-				logger= LogManager.getLogger(this.getClass());
-		logger.info("==========================setupFor A_Wishlist invoked=============================");
-				rb= ResourceBundle.getBundle("config");
-				br=rb.getString("browser");
-		
-	}
-	
-	//@Before
-	public void setupForR_Wishlist()
-	{
-				logger= LogManager.getLogger(this.getClass());
-		logger.info("==========================setupFor R_Wishlist() invoked=============================");
-				rb= ResourceBundle.getBundle("config");
-				br=rb.getString("browser");
-		
-	}
-	
-    @After
-    public void tearDownForA_Wishlist(Scenario scenario) 
-			    {
-			        System.out.println("Scenario status ======>"+scenario.getStatus());
-			        if(scenario.isFailed()) 
-			        {
-			             byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-			            scenario.attach(screenshot, "image/png",scenario.getName());
-			            }
-			logger.info("teardown for A_Wishlist invoked");
-			
-			       driver.quit();
-    }
-    
-    //@After
-    public void tearDownForR_Wishlist(Scenario scenario) 
-			    {
-			        System.out.println("Scenario status ======>"+scenario.getStatus());
-			        if(scenario.isFailed()) 
-			        {
-			             byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-			            scenario.attach(screenshot, "image/png",scenario.getName());
-			            }
-			logger.info("teardown for R_Wishlist invoked");
-			
-			       driver.quit();
-    }
 	
 	
-	
-	@Given("User Opens the Browser \\(for WISHLIST-F)")
-	public void user_opens_the_browser_for_wishlist_f() 
-	{
-				if(br.equals("chrome"))
-			        {
-			           driver=new ChromeDriver();
-			        System.out.println("Chrome driver invoke");
-			        }
-			        else if (br.equals("firefox")) {
-			           driver = new FirefoxDriver();
-			        }
-			        else if (br.equals("edge")) {
-			           driver = new EdgeDriver();
-			        }
-			        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-	}
 
 	
 	
 	@Given("User Opening Home URL {string} \\(for WISHLIST-F)")
 	public void user_opening_home_url_for_wishlist_f(String url) 
 	{
+	
+		driver=MyHooks.driver;
+		logger= MyHooks.logger;
      logger.info("STP1 Opening URl");
 					   		
 					   		driver.get(url);

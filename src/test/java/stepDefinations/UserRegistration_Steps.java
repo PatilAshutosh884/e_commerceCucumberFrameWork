@@ -15,6 +15,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 
+import hooks.MyHooks;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
@@ -25,79 +26,26 @@ import pageObjects.RegisterationPageObject;
 import utilities.DataReader;
 
 
-public class UserRegistration_Steps 
+public class UserRegistration_Steps
 {
-	public WebDriver driver;
+	WebDriver driver;
+	Logger logger;
 	RegisterationPageObject rpo;
 	
 	List<HashMap<String,String>> datamap;
 	
 	
-	private static Logger logger;
-	public ResourceBundle rb;
-	public String br;
 	
 	
 	
-	//@Before
-	public void setupForRegistration()
-	{
-
-	try 
-	{
-	System.out.println("This is setupFor Registation() ");
-		logger= LogManager.getLogger(this.getClass());
-		rb= ResourceBundle.getBundle("config");
-		br=rb.getString("browser");
-logger.info("================setup method invoked===================================="); 
-	}
-	catch(Exception e)
-	{
-		e.printStackTrace();	
-	}
-	}
-	
-	
-	
-   // @After
-    public void tearDownForRegistration(Scenario scenario) 
-    {
-        System.out.println("Scenario status ======>"+scenario.getStatus());
-        if(scenario.isFailed()) {
-             byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-            scenario.attach(screenshot, "image/png",scenario.getName());
-            }
-logger.info("@@@@@@@@@@@@@@@@@teardown for Registration() invoked@@@@@@@@@@@@@@@@@@@@@@@@@@@"); 
-System.out.println("Registration tear down() driver going to quit()");
-       driver.quit();
-    }
-
-	
-	
-		
-	
-	
-    @Given("User Launching Browser")
-   	public void user_launching_browser() 
-   	  {
-   		 if(br.equals("chrome"))
-   	        {
-   	           driver=new ChromeDriver();
-   	        System.out.println("Chrome driver invoke");
-   	        }
-   	        else if (br.equals("firefox")) {
-   	           driver = new FirefoxDriver();
-   	        }
-   	        else if (br.equals("edge")) {
-   	           driver = new EdgeDriver();
-   	        }
-   	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-   	    }
-   		   
+		   
 
    	@Given("User Opening URL {string}")
    	public void user_opening_url(String url)
    	{
+   		
+   		logger= MyHooks.logger;
+   		driver=MyHooks.driver;
    	System.out.println("User Openeing URL()");
    	logger.info("Opening URl");
    		

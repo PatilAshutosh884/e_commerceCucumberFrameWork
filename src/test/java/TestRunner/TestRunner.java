@@ -14,13 +14,12 @@ import io.cucumber.junit.CucumberOptions;
 	//features= {""},
 	//features= "@target/rerun.txt",
 	
-	glue="stepDefinations",
-  //glue="",
+	glue={"stepDefinations","hooks"},
 	plugin={"pretty",
 					//"html:report/LoginDDT_report.html",
 				    //"html:report/UR_report.html",
-			      "html:report/A-Wishlist_report.html",
-				    //"html:report/R-Wishlist_report.html",
+			      //"html:report/A-Wishlist_report.html",
+				    "html:report/R-Wishlist_report.html",
 				    //"json:report/myreport1.json",
 					   "rerun:target/rerun.txt",
 	 	    },
@@ -30,8 +29,8 @@ import io.cucumber.junit.CucumberOptions;
 	//tags="@UR_DDT"
 	//tags="@LoginDDT"
 	//tags="@UR_DDT and @LoginDDT"
-	tags="@A-Wishlist"
-	//tags="@R-Wishlist"
+	//tags="@A-Wishlist"
+	tags="@R-Wishlist"
 	//tags="@A-Wishlist and @R-Wishlist"
 	//tags="@A-Wishlist  or @R-Wishlist"
 	//tags="@A-Wishlist and not @R-Wishlist"	
